@@ -9,7 +9,7 @@ body{
 }
 
 #game_body{
-	background-image: url(bg.gif);
+	background-image: url(images/bg.gif);
 	background-size: 100% 100%;
 	position: fixed;
 	left: 0px;
@@ -45,7 +45,7 @@ body{
 }
 
 #dog{
-	background-image: url(dog.gif);
+	background-image: url(images/dog.gif);
 	background-size: 170px 140px;
 	height: 160px;
 	width: 360px;
@@ -90,7 +90,7 @@ body{
 }
 
 #lion{
-	background-image: url(lion.gif);
+	background-image: url(images/lion.gif);
 	background-size: 400px 170px;
 	height: 200px;
 	width: 360px;
@@ -123,41 +123,5 @@ body{
 	100%{
 		bottom: 0px;
 	}
-}
-
-
-/*********responsive************/
-
-/* media query */
-/*extra Small devices (landscape phones, less 576px and up)*/
-@media (max-width: 576px) { 
- 
-}
-
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-  
-}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
- 
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px){ 
- 
- 
-}
-
-/*extra Large devices (medium desktops, 1200px and up) */
-@media (min-width: 1200px){ 
-
-}
-
-/* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px){ 
-  
 }
 
