@@ -1,0 +1,163 @@
+body{
+	overflow: hidden;
+	font-family: arial;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#game_body{
+	background-image: url(bg.gif);
+	background-size: 100% 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#score{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	color: #fff;
+	font-size: 22px;
+	background: rgba(0,0,0,0.3);
+	padding: 15px 30px;
+}
+
+#gameover{
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	width: 100%;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	font-size: 33px;
+	padding: 25px 0px;	
+	display: none;
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+}
+
+#dog{
+	background-image: url(dog.gif);
+	background-size: 170px 140px;
+	height: 160px;
+	width: 360px;
+	background-repeat: no-repeat;	
+	position: fixed;
+	bottom: 13px;
+	left: 80px;
+	opacity: 0;
+}
+
+.dogJump{
+	animation: dogjump 1.5s linear;
+}
+
+.lionAnimation{
+	animation: lionRunning 4s linear infinite;
+}
+
+#playagain{
+	position: fixed;
+	top: 360px;
+	left: 0px;
+	color: #fff;
+	background: rgba(38,165,65,0.5);
+	font-size: 20px;
+	padding: 10px 0px;		
+	border-radius: 10px;
+	display: none;
+	text-align: center;
+	cursor: pointer;
+	width: 30%;
+	margin-left: 35%;
+}
+
+#timer img{
+	position: fixed;
+	top: 260px;
+	opacity: 0.5;
+	left: 43%;
+	height: 200px;
+	display: none;
+}
+
+#lion{
+	background-image: url(lion.gif);
+	background-size: 400px 170px;
+	height: 200px;
+	width: 360px;
+	background-repeat: no-repeat;	
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0;
+}
+
+@keyframes lionRunning{
+	0%{
+		left: 200vh;
+	}
+	
+	100%{
+		left: -10vw;
+	}
+}
+
+@keyframes dogjump{
+	0%{
+		bottom: 13px;
+	}
+
+	50%{
+		bottom: 400px;
+	}
+	
+	100%{
+		bottom: 0px;
+	}
+}
+
+
+/*********responsive************/
+
+/* media query */
+/*extra Small devices (landscape phones, less 576px and up)*/
+@media (max-width: 576px) { 
+ 
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+  
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+ 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px){ 
+ 
+ 
+}
+
+/*extra Large devices (medium desktops, 1200px and up) */
+@media (min-width: 1200px){ 
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px){ 
+  
+}
+
